@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hanaaalice.github.io/"/>
-  <updated>2019-08-04T17:23:33.901Z</updated>
+  <updated>2020-07-26T10:07:20.930Z</updated>
   <id>https://hanaaalice.github.io/</id>
   
   <author>
@@ -17,13 +17,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Backup</title>
+    <link href="https://hanaaalice.github.io/2020/07/26/Backup/"/>
+    <id>https://hanaaalice.github.io/2020/07/26/Backup/</id>
+    <published>2020-07-26T10:00:00.000Z</published>
+    <updated>2020-07-26T10:07:20.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>个人备份内容</p><a id="more"></a><h2 id="前端：HTML5-CSS3-JavaScript-Vue-node-js"><a href="#前端：HTML5-CSS3-JavaScript-Vue-node-js" class="headerlink" title="前端：HTML5 CSS3 JavaScript Vue node.js"></a>前端：HTML5 CSS3 JavaScript Vue node.js</h2><h2 id="后端：Java-Servlet-Tomcat-Nginx"><a href="#后端：Java-Servlet-Tomcat-Nginx" class="headerlink" title="后端：Java Servlet Tomcat Nginx"></a>后端：Java Servlet Tomcat Nginx</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;个人备份内容&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="前端" scheme="https://hanaaalice.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="博客" scheme="https://hanaaalice.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="备份" scheme="https://hanaaalice.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Leaning English</title>
+    <link href="https://hanaaalice.github.io/2019/08/12/Leaning-English/"/>
+    <id>https://hanaaalice.github.io/2019/08/12/Leaning-English/</id>
+    <published>2019-08-11T17:15:18.000Z</published>
+    <updated>2020-03-18T15:58:25.765Z</updated>
+    
+    <content type="html"><![CDATA[<p>1，In my limited experience with ..    谦虚表达自己在某方面的经验<br>2，I am searching for a long time on net. But no use. Please help or try to give some ideas how to achieve this. 找了很久未果，求助攻<br>3，after searching around for a decent XX solution and found that everything out there was difficult to use.<br>找了N种方法都发现太TM难了。<br>4，I’ve looked around and apparently I’ve got the choice between these libraries/ solutions: 说明自己是努力搜索过的，然后目前有了哪几种方案</p><a id="more"></a><p>5，which seems it’s a promising solution.  看起来是一个好解决方案<br>6，Ive tried multiple variations of this, but none of them seem to work. Any ideas? 试了很多种方法都无效，求助<br>7，Wanted to know if it’s good practice to do that and what would be the best way to do that? 我的做法是否正确，是否有更好的法子？<br>8，Thanks in advance. 先行谢过回答问题：<br>1，If I understand you correctly, you want to xxx 如果我没理解错，你想。。<br>2，Can you provided more details about your use case ? Can you provide more xml and code setting the url ? 提供更详细<br>当别人回答你的问题后，你对回答的评论：1，thank you for your answer sincerely 感谢回答blabla</p><p>#学习Vue</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--绑定class--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span>  <span class="attr">:class</span>=<span class="string">"[&#123; 'el-icon-s-fold': isActive &#125;, 'el-icon-s-unfold']"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure><p>ctrl+alt+方向键 改变屏幕方向</p><p>JavaScript 时间戳转字符串</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">time</span>(<span class="params">time = +new Date(</span>)) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> date = <span class="keyword">new</span> <span class="built_in">Date</span>(time + <span class="number">8</span> * <span class="number">3600</span> * <span class="number">1000</span>); <span class="comment">// 增加8小时</span></span><br><span class="line">    <span class="keyword">return</span> date.toJSON().substr(<span class="number">0</span>, <span class="number">19</span>).replace(<span class="string">'T'</span>, <span class="string">' '</span>);</span><br><span class="line">&#125;</span><br><span class="line">time(); <span class="comment">// "2018-08-09 18:25:54"</span></span><br></pre></td></tr></table></figure><p>Date的‘toJSON’方法返回格林威治时间的JSON格式字符串，实际是使用‘toISOString’方法的结果。字符串形如‘2018-08-09T10:20:54.396Z’，转化为北京时间需要额外增加八个时区，我们需要取字符串前19位，然后把‘T’替换为空格，即是我们需要的时间格式。<br>date = Sun Aug 18 2019 00:32:10 GMT+0800 (中国标准时间)<br>date.toJson() = 2019-08-17T16:32:10.440Z</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">time</span>(<span class="params">time = +new Date(</span>)) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> date = <span class="keyword">new</span> <span class="built_in">Date</span>(time + <span class="number">8</span> * <span class="number">3600</span> * <span class="number">1000</span>);</span><br><span class="line">    <span class="keyword">return</span> date.toJSON().substr(<span class="number">0</span>, <span class="number">19</span>).replace(<span class="string">'T'</span>, <span class="string">' '</span>).replace(<span class="regexp">/-/g</span>, <span class="string">'.'</span>);</span><br><span class="line">&#125;</span><br><span class="line">time(); <span class="comment">// "2018.08.09 18:25:54"</span></span><br></pre></td></tr></table></figure><p>把时间格式中的‘-’修改为‘.’或者其他符号都是可以的。对比老方法，这种方法代码量比以前省了不止一星半点的，读起来也简洁多了。如果时间格式需要毫秒数，只需要获取前23位字符串，和上面一样用replace方法替换。</p><p>用ultraso制作ubuntu映象文件时，由于U盘被其他占用，强制退出后，文件名错乱无法删除或格式化。解决：修改U盘名称后再格式化处理</p><p>智障，为什么要把iso放在U盘里？结果显示U盘占用与写入互相冲突 永远无法写入成功</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1，In my limited experience with ..    谦虚表达自己在某方面的经验&lt;br&gt;2，I am searching for a long time on net. But no use. Please help or try to give some ideas how to achieve this. 找了很久未果，求助攻&lt;br&gt;3，after searching around for a decent XX solution and found that everything out there was difficult to use.&lt;br&gt;找了N种方法都发现太TM难了。&lt;br&gt;4，I’ve looked around and apparently I’ve got the choice between these libraries/ solutions: 说明自己是努力搜索过的，然后目前有了哪几种方案&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>New Day,New Life?</title>
     <link href="https://hanaaalice.github.io/2019/08/05/New-Day-New-Life/"/>
     <id>https://hanaaalice.github.io/2019/08/05/New-Day-New-Life/</id>
     <published>2019-08-04T16:50:32.000Z</published>
-    <updated>2019-08-04T17:23:33.901Z</updated>
+    <updated>2019-08-06T02:55:19.419Z</updated>
     
-    <content type="html"><![CDATA[<p>NEW DAY NEW LIFE</p><a id="more"></a><p>后面的内容在首页不显示，只显示到</p><!--more-->这里]]></content>
+    <content type="html"><![CDATA[<p>NEW DAY NEW LIFE</p><a id="more"></a><p>Don’t believe your eyes, believe you minds.<br>The country sucks.<br>Trapped by heavy loan of my litle house.<br>I wanna flY, but it’s raining now.<br>The country sucks.<br>People are inveracious, people are…</p><h1 id="天下熙熙，皆为利来；天下攘攘，皆为利往"><a href="#天下熙熙，皆为利来；天下攘攘，皆为利往" class="headerlink" title="天下熙熙，皆为利来；天下攘攘，皆为利往"></a>天下熙熙，皆为利来；天下攘攘，皆为利往</h1>]]></content>
     
     <summary type="html">
     
